@@ -1,0 +1,102 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Denes
+    last_name: Jakab
+    
+    # Define yourself in 4-5 words
+    motto: I like sports, video games and eating. 
+    
+    # Focus
+    focus: improve every day 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      A boy who graduated in primary education, excited to work with children and especially to improve children's perception of education. I have worked with children in Ireland for three years and I am very happy. However, I am eager to discover new horizons and new learning opportunities, excited to learn programming and explore a new world. 
+      I hope to learn a lot in the bootcamp and continue developing myself as a professional once the bootcamp is over.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/177563736?v=4
+
+    # Contact Information
+    email: denisjakabjakab@gmail.com #optional
+    phone: 
+    website: 
+    linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Denesjakab
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Romanian
+        level: native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: football
+
+      - item: Videogames
+
+      - item: Cooking/eating
+
+# Your previous education
+education:
+    - degree: High School
+      university: SAFA-ICET El Palo
+      # optional
+      university_logo: https://malaga.safa.edu/
+      time: 2015-2017
+      details: with a focus on Science and Technology
+
+    - degree: Primary Education 
+      university: Maria inmaculada de Antequera
+      # optional
+      university_logo: https://www.eummia.es/
+      time: 2017-2021
+      details: Primaru Education with a focus on Physical Education
+       
+# Your previous job experiences or volunteer
+experiences:
+    - role: store Assistant 
+      time: 2015-2018
+      company: Souvenirs EL Chenachero
+      # optional
+      company_logo:
+      details: Helping customers, restocking items, and cleaning the store.
+        
+
+    - role: Waiter
+      time: 2018-2019
+      company: Venta Las Palmeras
+      # optional
+      company_logo: 
+      details: Table service, cleaning and setup, and restocking items.
+
+    - role: Preschool Teacher
+      time: 2021-2024
+      company: Cocoon Childcare
+      # optional
+      company_logo: https://cocoonchildcare.ie/
+      details: Developing learning methodologies and caring for children.
+
